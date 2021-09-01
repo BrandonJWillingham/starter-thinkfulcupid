@@ -160,6 +160,7 @@ footer p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
   }
   #join img{
     flex: 1;
@@ -177,18 +178,19 @@ footer p {
   #about img{
     width: 20%;
   }
-
+  #blog div{
+    width: 100%;
+    margin: 10px 10px
+  }
   #testing{
     display: flex;
     flex-direction: row;
-  }
-  #testinglatin{
-    align-items: center;
+    justify-content: space-between;
   }
   #last{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
 }
