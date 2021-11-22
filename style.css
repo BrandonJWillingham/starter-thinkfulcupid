@@ -72,8 +72,9 @@ header {
 
 .logo {
   font-family: "Tangerine", cursive;
-  font-size: 107px;
+  font-size: 70px;
   color: #ecdbc9;
+
 }
 header nav{
   display: flex;
@@ -147,6 +148,9 @@ footer p {
 /* -------  Media Query ------- */
 @media all and (min-width: 480px){ 
   
+  .logo{
+    font-size: 107px;
+  }
   header {
     flex-direction: row;
     justify-content: space-between;
